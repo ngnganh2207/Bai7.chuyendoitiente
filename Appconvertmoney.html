@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>apconvertmoney</title>
+</head>
+<body>
+<form method="post">
+    <div>Amount</div>
+    <input name="Amount" placeholder="Xin mời nhập tiền" id="nhaptien" type="text">
+
+    <div>From Currency</div><br>
+    <select name="From Currency" id="fromcurrency">
+        <option value="VN">VND</option>
+        <option value="USA">USD</option>
+    </select>
+
+    <div>To Currency</div><br>
+    <select name="To Currency" id="tocurrency">
+        <option value="VN">VND</option>
+        <option value="USA">USD</option>
+    </select>
+    <br>
+    <input type="button" value="Convert" id="nhanvaoday">
+    <p id="result"></p>
+</form>
+<script src="appconvertmoney.js"></script>
+</body>
+</html>
